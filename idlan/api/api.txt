@@ -1,0 +1,37 @@
+poto
+POST /api/fotos/multiple - upload multiple foto using s potos
+GET /api/fotos - Mendapatkan semua foto
+GET /api/fotos/active - Mendapatkan foto yang aktif
+GET /api/fotos/album/:albumId - Mendapatkan foto berdasarkan ID album
+GET /api/fotos/:id - Mendapatkan detail foto berdasarkan ID
+POST /api/fotos - Menambah foto baru (perlu token)
+PUT /api/fotos/:id - Mengupdate foto (perlu token)
+DELETE /api/fotos/:id - Menghapus foto (perlu token)
+
+auth
+POST /api/auth/register - Untuk registrasi user baru
+POST /api/auth/login - Untuk login user
+GET /api/auth/profile - Untuk mengakses data profile (protected route)
+
+info
+GET /api/info - Mendapatkan semua informasi
+GET /api/info/:id - Mendapatkan informasi berdasarkan ID
+POST /api/info - Membuat informasi baru (perlu token)
+PUT /api/info/:id - Mengupdate informasi (perlu token)
+DELETE /api/info/:id - Menghapus informasi (perlu token)
+
+agenda
+GET /api/agenda - Mendapatkan semua agenda
+GET /api/agenda/upcoming - Mendapatkan agenda yang akan datang
+GET /api/agenda/:id - Mendapatkan detail agenda berdasarkan ID
+POST /api/agenda - Membuat agenda baru (perlu token)
+PUT /api/agenda/:id - Mengupdate agenda (perlu token)
+DELETE /api/agenda/:id - Menghapus agenda (perlu token)
+
+albums
+GET /api/albums - Mendapatkan semua album
+GET /api/albums/active - Mendapatkan album yang aktif
+GET /api/albums/:id - Mendapatkan detail album berdasarkan ID
+POST /api/albums - Membuat album baru (perlu token)
+PUT /api/albums/:id - Mengupdate album (perlu token)
+DELETE /api/albums/:id - Menghapus album (perlu token)
